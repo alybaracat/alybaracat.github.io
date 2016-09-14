@@ -1,0 +1,79 @@
+html *
+{
+   font-size: 1em ;
+   color: #000 ;
+   font-family: "Avenir Next" !important;
+}
+
+.btn {
+  color: #ff0000;
+}
+
+.sections a {
+    margin: 1em;
+}
+
+.sections b {
+    margin: 1em;
+}
+
+
+
+
+
+
+.name {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    float: left;
+    font-size: 1em
+    list-style: none;
+
+}
+
+.section{
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  float: right;
+  font-weight: normal;
+  list-style: none;
+}
+
+#grad1 {
+    height: 15em;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #7862A3 , #407AA7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #7862A3, #407AA7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #7862A3, #407AA7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #7862A3 , #407AA7); /* Standard syntax (must be last) */
+}
+
+t1, t2 {
+  font-size: 1.5em;
+  color: #514E90;
+}
+
+t1{
+  font-weight: lighter;
+}
+t2{
+  font-weight: 500;
+}
+
+.description{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.description p{
+  margin-top: 0em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+
+
+div {
+}
