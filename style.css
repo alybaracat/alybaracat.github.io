@@ -1,21 +1,35 @@
 html *
 {
-   font-size: 1em ;
-   color: #000 ;
-   font-family: "Avenir Next" !important;
+  font-size: 1em ;
+  color: #000 ;
+  font-family: "Avenir Next" !important;
+}
+
+body
+{
+  background: #F6F6F6;
+  max-width: 60em;
+  margin: 0 auto;
 }
 
 .btn {
   color: #ff0000;
 }
+.sections{
+  margin-top: 1.5em;
+}
 
 .sections a {
-    margin: 1em;
+  margin: 1em;
+  font-size: 0.8em;
+  margin-left: 3em;
 }
 
 .sections b {
-    margin: 1em;
+  font-size: 0.8em;
+  margin: 1em;
 }
+
 
 
 
@@ -23,17 +37,18 @@ html *
 
 
 .name {
-    color: #ffffff;
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    float: left;
-    font-size: 1em
-    list-style: none;
+  color: #5D5E5E;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  float: left;
+  margin-left: 1em;
+  font-size: 1em
+  list-style: none;
 
 }
 
 .section{
-  color: #ffffff;
+  color: #5D5E5E;
   text-decoration: none;
   border-bottom: 1px solid transparent;
   float: right;
@@ -42,38 +57,220 @@ html *
 }
 
 #grad1 {
-    height: 15em;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(left, #7862A3 , #407AA7); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, #7862A3, #407AA7); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, #7862A3, #407AA7); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, #7862A3 , #407AA7); /* Standard syntax (must be last) */
+  height: 100px; /*35vw;*/
+  background:none; /* For browsers that do not support gradients */
+
+}
+
+hr { width:100%;
+  height:1px;
+  background: #ffffff;
 }
 
 t1, t2 {
-  font-size: 1.5em;
+  font-size: 3.5vw ;
+  font-weight: 400;;
   color: #514E90;
 }
 
-t1{
-  font-weight: lighter;
-}
-t2{
-  font-weight: 500;
-}
+h2 {
+  display: inline-block;
+  width:80%;
+  text-align:center;
+  font-size: 1.6vw;
+  font-weight: normal;
+  border-top: 1px solid #D9D9D8;
+  line-height:0.1em;
+   margin:10px 0 20px;
+  }
+h2 span { background:#F6F6F6;
+  padding:0 10px;
+  color: #606061;
+ }
+
+ .subtitle{
+text-align: center;}
 
 .description{
   text-align: center;
-  margin-top: 2em;
+  margin-top: 4vw;
 }
 
 .description p{
   margin-top: 0em;
-  margin-left: 3em;
-  margin-right: 3em;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  color: #606061;
+  font-weight: 400;
+}
+
+.fields{
+  text-align: right;
+  font-size: 1.2vw;
+  width: 80%;
+  display: inline-block;
+
+}
+.subfields{
+  text-align: center;
+}
+.fields a {
+  color: #0881b3;
+
+  margin: 1vw;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+
+li{background: #FFFFFF;
+  /*margin-left: 10vw;
+  margin-right: 2vw;*/
+  width: 80%;
+  display: inline-block;
+  margin-bottom: 1vw;
+}
+
+.leftside{
+  float: left;
+  width: 40%;
+}
+.rightside{
+  float: right;
+  width: 45%;
+  margin: 4vw;
+  margin-top: 3vw;
+  text-align: left;
+}
+
+.date{
+  float: right;
+  font-size: 1.4vw;
+  color: rgb(154, 154, 154);
+}
+.pieceicon{
+  margin: 5vw;
+  width: 100%;
+}
+
+.piecetitle{
+  margin-top: 3vw;
+  margin-left: 3vw;
+  font-weight: 500;
+  color: #424243;
+  font-size: 1.8vw;
+}
+.iterations{
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-weight: 400;
+  color: #3B98CB;
+  font-size: 1.6vw;
+}
+.piecedescription{
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  font-weight: 400;
+  color: #606061;
+  font-size: 1.6vw;
+}
+.links{width: 100%;
+  margin-left: 3vw;
+  margin-top: 6vw;
+
+}
+
+.behancelink{  width: 22%;
+
+}
+.loudrlink{width: 22%;
+  }
+.githublink{width: 22%;
+  }
+.appstorelink{width: 22%;
+  }
+
+.btn {
+  font-size: 0.9vw;
+  border: none;
+  color: #606061;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  background: none;
+  margin: 5px;
+}
+
+.active {
+  color: #ffffff;
+  background: #1F83C2;
+}
+
+@media all and (min-width: 960px) {
+.piecetitle{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+.piecedescription{
+      font-size: 15px;
+      margin-top: 15px;
+      margin-left: 30px;
+      margin-right: 30px;
+
+    }
+    .iterations{
+      font-size: 15px;
+      margin-top: 15px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    .date{
+      font-size: 13px;
+    }
+.pieceicon{
+      margin: 45px;
+      width: 100%;
+    }
+    .rightside{
+      margin: 45px;
+    }
+}
+
+@media all and (max-width: 959px) and (min-width: 600px) {
+.piecetitle{
+    margin-top: 5vw;
+    margin-left: 3vw;
+    font-size: 1.8vw;
+  }
+.piecedescription{
+        font-size: 1.6vw;
+      }
+}
+
+@media all and (max-width: 599px) and (min-width: 50px) {
+.piecetitle{
+    font-size: 1.5vw;
+  }
+  .piecedescription{
+          font-size: 1.4vw;
+        }
+        .iterations{
+          font-size: 1.4vw;
+        }
+        .date{
+          font-size: 1.3vw;
+        }
 }
 
 
+.spacer {
+  clear: both;
+  height: 20px;
+}
 
 div {
 }

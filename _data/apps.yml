@@ -1,0 +1,145 @@
+- name: Cairo Innovates - Logo Design
+  date: Fall 2016
+  icon: assets/cairoinnovatesfuturistic.png
+  description: A futuristic monogram showing how innovation could be achieved with elements as simple as the initials. Such execution is the result of clever use of both positive and negative space.
+  NumberOfIterations:
+  WhatToExpect: See the full process from brainstorming to the final product
+  aUrl: https://itunes.apple.com/us/app/qebla/id1064161301?mt=8
+
+- name: Cairo Innovates - Logo Design
+  date: Fall 2016
+  icon: assets/cairoinnovatesskyline.png
+  description: A geometric logotype bringing the focus to the host city of the event Cairo. With a futuristic approach representing the skyline in a minimal way. It makes the perfect balance between science and innovation.
+  NumberOfIterations:
+  WhatToExpect: See the full process from brainstorming to the final product
+  aUrl: https://www.behance.net/gallery/44692657/Cairo-Innovates-Logo-Design?
+
+- name: Cairo Innovates - Logo Design
+  date: Fall 2016
+  icon: assets/cairoinnovatespyramids.png
+  description: Outlining a pyramid, the circles are progressively getting smaller, representing unity at its finest. Eventually, they meet at a focal point symbolising the gathering of different people for a specific goal, and that is the core of innovation.
+  NumberOfIterations:
+  WhatToExpect: See the full process from brainstorming to the final product
+  aUrl: https://itunes.apple.com/us/app/qebla/id1064161301?mt=8
+
+- name: Name Initials Design
+  date: Spring 2016
+  icon: assets/abinitialsmockup.png
+  description:  6 different minimalistic flat monograms combining sleek typography with a creative composition
+  NumberOfIterations: 18
+  WhatToExpect: See the different logo variations
+  aUrl: https://itunes.apple.com/us/app/qebla/id1064161301?mt=8
+
+- name: Water Themed Notebook Collection
+  date: Spring 2016
+  icon: assets/Notebook Rain.png
+  description:  A notebook collection following a common theme using type based patterns. Inspired by rain, waves and waterfalls, this notebook collection brings a touch of elegance and sophistication.
+  NumberOfIterations:
+  WhatToExpect: view the whole collection
+  behancelink: https://www.behance.net/gallery/41350823/Notebooks-Design-(Water-Theme)
+
+- name: Arabesque Notebook Collection
+  date: Spring 2016
+  icon: assets/ArabicPatternsnotebook.png
+  description:  A notebook collection following a common theme using type based patterns. This notebook collection is inspired by the arabic patterns and the islamic art. These arabesque patterns are created by only using one letter.
+  NumberOfIterations:
+  WhatToExpect: view the whole collection
+  behancelink: https://www.behance.net/gallery/41348923/Arabic-Patterns-Notebook-Design
+
+- name: Swiss Design - Egyptian Concepts
+  date: Fall 2016
+  icon: assets/Swiss Designs Egyptian concept.png
+  description: This project was intended for a graphic design competition. Portraying Egyptian concepts, these poster designs follow the guidelines of the International Typographic Style (Swiss Style)
+  NumberOfIterations:
+  WhatToExpect: view the whole collection
+  behancelink: https://www.behance.net/gallery/41348923/Arabic-Patterns-Notebook-Design
+
+- name: Music Club Corporate Identity
+  date: Spring 2015
+  icon: assets/Musicana Posters.png
+  description:  Colorful designs destined for a university music club publication design. It's all about consistency and playfulness.
+  NumberOfIterations:
+  WhatToExpect: view the whole collection
+  behancelink: https://www.behance.net/gallery/41348923/Arabic-Patterns-Notebook-Design
+
+- name: Inchy
+  year: 2015
+  users: 60K+ users & 3.8+ rating
+  icon: assets/Inchy.jpeg
+  description: Casual arcade game with video game replays.
+  achievements:
+    - text: Developed and published in 2 days
+  pUrl: https://play.google.com/store/apps/details?id=com.BaracatBros.Inchy
+  wUrl: https://www.microsoft.com/en-US/store/apps/Inchy/9NBLGGGZNLCS
+
+- name: Spookies
+  year: 2014
+  users: 30K+ users & 4.2+ rating
+  icon: assets/spookies.png
+  description: Endless side-scroller developed as a reaction to the huge number of Flappy Bird clones.
+  achievements:
+    - text: My first Unity3D game :)
+    - text: Developed and published over 1 weekend
+  media:
+    - title: WinBeta article
+      url: http://www.winbeta.org/news/spookies-windows-phone-flappy-bird-style-endless-runner-game
+  pUrl: https://play.google.com/store/apps/details?id=com.BaracatBros.Spookies
+  wUrl: https://www.microsoft.com/en-us/store/games/spookies/9wzdncrcwcb6
+
+- name: The Impossible Path
+  year: 2013 - 2015
+  users: 90K+ users & 4.2 rating
+  icon: assets/theimpossiblepath.jpg
+  description: Test your visual memory and ability to steadily trace a path between two points.
+  achievements:
+  media:
+    - title: Windows Central article
+      url: http://www.windowscentral.com/impossible-path-windows-phone-game-review
+    - title: Windows Central video
+      url: https://www.youtube.com/watch?v=IVIL9Rqe_hY
+  wUrl: https://www.microsoft.com/en-us/store/games/the-impossible-path/9nblggh0c15h
+
+- name: Flipit & Guesit
+  year: 2013
+  users: 15K+ users & 4.2+ rating
+  notInWStore: true
+  icon: assets/FlipitGuesit.png
+  description: Flip the tiles and guess the images.
+  achievements:
+  wUrl: https://www.microsoft.com/en-us/store/apps/flipit-guesit/9nblggh09ks4
+
+- name: Bubblo World
+  year: 2011 - 2012
+  users: 150K+ users & 4.2+ rating
+  notInWStore: true
+  icon: assets/BubbloWorld.png
+  description: Puzzle game with 55 levels, hints system and cool animations.
+  achievements:
+    - text: Featured by Microsoft in 100+ countries
+  media:
+    - title: Windows Central article
+      url: https://www.microsoft.com/store/apps/9wzdncrcx308
+    - title: Windows Central video
+      url: https://www.youtube.com/watch?v=qqthn1mLU5Y
+    - title: BestWP7Games video
+      url: https://www.youtube.com/watch?v=TJNn0BbAcdg
+    - title: WPXBOX video
+      url: https://www.youtube.com/watch?v=c8fcqU5XoTo
+  wUrl: https://www.microsoft.com/store/apps/9wzdncrcx308
+
+- name: Dodger
+  year: 2011
+  notInWStore: true
+  icon: assets/Dodger.png
+  description: Highly addictive missile dodging game where the player tries to perform hard maneuvers in order to make the enemy die by his own hand.
+  achievements:
+    - text: First exposure to REST API for implmenting leaderboards
+  wUrl: https://www.microsoft.com/en-us/store/apps/dodger/9nblggh0gpz1
+
+- name: Fifty Five
+  year: 2011
+  icon: assets/FiftyFive.png
+  description: Digital version of the pen & paper game.
+  achievements:
+    - text: My first XNA game :)
+  wUrl: https://www.microsoft.com/en-us/store/apps/fifty-five/9nblggh0gq8k

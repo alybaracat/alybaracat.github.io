@@ -1,23 +1,118 @@
-<html>
+---
+layout: null
+---
+
 <head>
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
+<body>
 
-<div class = "sections" id="grad1">
-<a class = "name">Aly Baracat</a>
-<a class="section">About</a>
-<a class="section" href="projects.html">Projects</a>
-<a class="section">Resume</a>
+  <div class = "sections" id="grad1">
+    <b class = "name">AlyBaracat</b>
+    <a class="section">RESUME</a>
+    <a class="section" >PROJECTS</a>
+    <a class="section">ABOUT</a>
+  </div>
+
+
+<div class = "subtitle"><h2><span>ABOUT</span></h2></div>
+
+<ul>
+<li id="parent1">
+
+      <div class = "leftside">
+        <img class="pieceicon" src="Boatlogo2.png" alt="Boatlogo2">
+      </div>
+      <div class = "rightside">
+        <div class="date"></div>
+        <div class="piecetitle">WHO AM I?</div>
+        <div class="piecedescription">
+          I am a double major student in computer engineering and
+           graphic design. I like to design &amp; develop userfacing products
+           inculding apps, games, posters, corporate identity and music
+        </div>
+        <div class="iterations"></div>
+        <div class= "links">
+          <a href="https://www.behance.net/alybaracat">
+          <img class="behancelink" src="assets/behance-logo-black.png" alt="behance"></a>
+          <img class="githublink" src="assets/GitHub_Logo.png" alt="behance">
+        </div>
+      </div>
+
+
+</li></ul>
+<!--
+  <div class ="description">
+    <t1>WHO</t1>
+    <t2>AM I?</t2>
+    <p> I am a double major student in computer engineering and
+      graphic design. I like to design &amp; develop userfacing products
+      inculding apps, games, posters, corporate identity and music
+    </p>
+    <div class="block_1"></div> <hr />
+  </div>-->
+  <div class = "subtitle">
+    <h2><span>PROJECTS</span></h2>
+  </div>
+<div class = "subfields">
+  <div class = "fields">
+    <button class="btn" id="DSGN">DESIGN</button>
+    <button class="btn" id="CS">CS</button>
+    <button class="btn" id="MS">MUSIC</button>
+    <button class="active btn" id="all">ALL</button>
+  </div>
 </div>
+  <div class="spacer"></div>
 
-<div class ="description">
-  <t1>WHO</t1>
-  <t2>AM I?</t2>
-  <p> I am a double major student in computer engineering and
-graphic design. I like to design & develop userfacing products
-inculding apps, games, posters, corporate identity and music
-</p>
 
-</div>
+  <ul id="parent">
+    {% for app in site.data.apps %}
 
-</html>
+    <li>
+      <div class = "card DSGN MS">
+        <div class = "leftside">
+          <img class="pieceicon" src="{{app.icon}}" alt="LostInside">
+        </div>
+        <div class = "rightside">
+          <div class="date">{{app.date}}</div>
+          <div class="piecetitle">    {{ app.name }}</div>
+          <div class="piecedescription">
+            {{ app.description }}
+          </div>
+            <div class="iterations">{{app.NumberOfIterations}} iterations</div>
+          <div class="piecelink"></div>
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+    <li>
+      <div class = "card CS">
+        <div class = "leftside">
+          <img class="pieceicon" src="LostInside.png" alt="LostInside">
+        </div>
+        <div class = "rightside">
+          <div class="piecetitle">Lost Inside - Original Playlist</div>
+          <div class="piecedescription">
+            hello from the other side, I must
+            have called a thousand
+            times to tell you I am sorry
+            for everything that I have done
+          </div>
+          <div class= "links">
+            <img class="behancelink" src="assets/Behance_Logo.png" alt="behance">
+            <img class="loudrlink" src="behance.png" alt="behance">
+            <img class="githublink" src="assets/GitHub_Logo.png" alt="behance">
+            <img class="appstorelink" src="behance.png" alt="behance">
+
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+
+  <script src="script.js"></script>
+
+
+</body>
