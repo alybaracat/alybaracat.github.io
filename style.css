@@ -163,8 +163,13 @@ li{background: #FFFFFF;
   font-size: 1.8vw;
 }
 .iterations{
-  margin-top: 1vw;
   margin-left: 3vw;
+  margin-right: 3vw;
+  font-weight: 400;
+  color: #3B98CB;
+  font-size: 1.6vw;
+}
+.newslink{
   margin-right: 3vw;
   font-weight: 400;
   color: #3B98CB;
@@ -179,19 +184,24 @@ li{background: #FFFFFF;
   font-size: 1.6vw;
 }
 .links{width: 100%;
-  margin-left: 3vw;
-  margin-top: 6vw;
+  margin-left: 2vw;
+  margin-top: 1vw;
 
 }
 
-.behancelink{  width: 22%;
+.behancelink{  width: 10%;
 
 }
-.loudrlink{width: 22%;
+.youtubelink{width: 10%;
   }
-.githublink{width: 22%;
+.githublink{width: 10%;
   }
-.appstorelink{width: 22%;
+.linkedin{width: 10%;
+  }
+  .appstore{width: 10%;
+    }
+  .loudr{
+    width: 10%;
   }
 
 .btn {
@@ -224,9 +234,14 @@ li{background: #FFFFFF;
     }
     .iterations{
       font-size: 15px;
-      margin-top: 15px;
       margin-left: 30px;
       margin-right: 30px;
+    }
+    .links{
+      margin-left: 30px;
+    }
+    .newslink{
+      font-size: 15px;
     }
     .date{
       font-size: 13px;
@@ -259,6 +274,9 @@ li{background: #FFFFFF;
           font-size: 1.4vw;
         }
         .iterations{
+          font-size: 1.4vw;
+        }
+        .newslink{
           font-size: 1.4vw;
         }
         .date{

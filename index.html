@@ -11,8 +11,8 @@ layout: null
   <div class = "sections" id="grad1">
     <b class = "name">AlyBaracat</b>
     <a class="section">RESUME</a>
-    <a class="section" >PROJECTS</a>
-    <a class="section">ABOUT</a>
+    <a href = "#parent" class="section" >PROJECTS</a>
+    <a href = "#parent1" class="section">ABOUT</a>
   </div>
 
 
@@ -40,7 +40,7 @@ layout: null
           <img class="linkedin" src="assets/linkedin.png" alt="linkedin"></a>
           <a href="https://www.youtube.com/channel/UCrOBzpIrcrV_XnnnjpcjhfA">
           <img class="youtubelink" src="assets/youtube.png" alt="youtube"></a>
-          
+
         </div>
       </div>
 
@@ -73,8 +73,8 @@ layout: null
   <ul id="parent">
     {% for app in site.data.apps %}
 
-    <li>
-      <div class = "card DSGN MS">
+    <li class = "card {{app.field}}">
+      <div >
         <div class = "leftside">
           <img class="pieceicon" src="{{app.icon}}" alt="LostInside">
         </div>
@@ -84,39 +84,56 @@ layout: null
           <div class="piecedescription">
             {{ app.description }}
           </div>
-            <div class="iterations">{{app.NumberOfIterations}} iterations</div>
-          <div class="piecelink"></div>
+            {% if app.NumberOfIterations %}<div class="iterations">- {{app.NumberOfIterations}} iterations -</div>{% endif %}
+            <div class = "links" >
+            {% if app.behanceurl %}  <a href="{{ app.behanceurl }}" >
+                <img class="behancelink" src="assets/behance.png" alt="behance"> </a> {% endif %}
+            {% if app.githuburl %}   <a href="{{ app.githuburl }}">
+              <img class="githublink" src="assets/github.png" alt="github"></a>{% endif %}
+              {% if app.loudrurl %}   <a href="{{ app.loudrurl }}">
+              <img class="loudr" src="assets/loudr.png" alt="loudr"></a>{% endif %}
+              {% if app.wUrl %}   <a href="{{ app.wUrl }}">
+              <img class="appstore" src="assets/appstore.png" alt="appstore"></a>{% endif %}
+              {% if app.newsurl %}   <a href="{{ app.wUrl }}" class = "newslink" >
+              Check {{app.name}} review here</a>{% endif %}
         </div>
       </div>
     </li>
     {% endfor %}
-    <li>
-      <div class = "card CS">
-        <div class = "leftside">
-          <img class="pieceicon" src="LostInside.png" alt="LostInside">
-        </div>
-        <div class = "rightside">
-          <div class="piecetitle">Lost Inside - Original Playlist</div>
-          <div class="piecedescription">
-            hello from the other side, I must
-            have called a thousand
-            times to tell you I am sorry
-            for everything that I have done
-          </div>
-          <div class= "links">
-            <img class="behancelink" src="assets/Behance_Logo.png" alt="behance">
-            <img class="loudrlink" src="behance.png" alt="behance">
-            <img class="githublink" src="assets/GitHub_Logo.png" alt="behance">
-            <img class="appstorelink" src="behance.png" alt="behance">
 
-          </div>
-        </div>
-      </div>
-    </li>
   </ul>
 
 
-  <script src="script.js"></script>
+  <script src="script.js">
+  </script>
+  <script>
+
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+
+  </script>
 
 
 </body>
