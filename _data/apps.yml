@@ -28,7 +28,7 @@
 - name: Agrimatics Product Catalog Template
   date: Summer 2016
   icon: assets/productcatalog.png
-  description: This catalog was intended for Agrimatic Farms, a startup that owns one of the largest aquaponic farms in Egypt. Following their corporate identity guidelines in color and typography, These templates are simple yet practical.
+  description: This catalog was intended for Agrimatic Farms, a startup that owns one of the largest aquaponic farms in Egypt. Following their corporate identity guidelines in color and typography, These templates these templates are the perfect blend between practicality and simplicity.
   NumberOfIterations: 10
   field: DSGN
   WhatToExpect: See the full process from brainstorming to the final product
@@ -38,10 +38,10 @@
   date: Summer 2016
   icon: assets/bucketlist.png
   field: DSGN CS
-  description: A social network bucketlist where users can post as many targets and objectives on their profile. Tracking others progress and exploring their targets gives the opportunity to connect and motivate others.
+  description: A social network bucketlist allowing users to connect, share and keep sight of their dreams, aspirations and life goals. 
   WhatToExpect: See the full process from brainstorming to the final product
   behanceurl: https://www.behance.net/gallery/41349171/BucketList-IOS-and-Android-application-design
-  githuburl: https://itunes.apple.com/us/app/qebla/id1064161301?mt=8
+  githuburl: https://github.com/faridaeid/Bucketlist
 
 - name: Lost Inside - Original Playlist
   date: Summer 2016
