@@ -28,7 +28,7 @@
 - name: Agrimatics Product Catalog Template
   date: Summer 2016
   icon: assets/productcatalog.png
-  description: This catalog was intended for Agrimatic Farms, a startup that owns one of the largest aquaponic farms in Egypt. Following their corporate identity guidelines in color and typography, These templates these templates are the perfect blend between practicality and simplicity.
+  description: This catalog was intended for Agrimatic Farms, a startup that owns one of the largest aquaponic farms in Egypt. Following their corporate identity guidelines in color and typography, these templates are the perfect blend between practicality and simplicity.
   NumberOfIterations: 10
   field: DSGN
   WhatToExpect: See the full process from brainstorming to the final product
@@ -38,7 +38,7 @@
   date: Summer 2016
   icon: assets/bucketlist.png
   field: DSGN CS
-  description: A social network bucketlist allowing users to connect, share and keep sight of their dreams, aspirations and life goals. 
+  description: A social network bucketlist allowing users to connect, share and keep sight of their dreams, aspirations and life goals.
   WhatToExpect: See the full process from brainstorming to the final product
   behanceurl: https://www.behance.net/gallery/41349171/BucketList-IOS-and-Android-application-design
   githuburl: https://github.com/faridaeid/Bucketlist
@@ -138,16 +138,6 @@
     - title: Windows Central video
       url: https://www.youtube.com/watch?v=IVIL9Rqe_hY
   wUrl: https://www.microsoft.com/en-us/store/games/the-impossible-path/9nblggh0c15h
-
-- name: Flipit & Guesit
-  date: 2013
-  users: 15K+ users & 4.2+ rating
-  field: DSGN
-  notInWStore: true
-  icon: assets/FlipitGuesit.png
-  description: Flip the tiles and guess the images.
-  achievements:
-  wUrl: https://www.microsoft.com/en-us/store/apps/flipit-guesit/9nblggh09ks4
 
 - name: Bubblo World
   date: 2011 - 2012
